@@ -36,15 +36,12 @@ def greet() :
 # execute greeting
 greet()
 
-
-
 #  this could even search the internet for more choices
-def species_selection(arg , arg1) :
+def species_selection(arg, arg1) :
     print('foo')
     
-
-
 users_age = input('how old are you?: ')
+
 print(users_age)
 if users_age < str(MIN_AGE_TO_ENTER) :
     print('sorry minimum age not met')
