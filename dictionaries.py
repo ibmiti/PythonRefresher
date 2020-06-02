@@ -16,7 +16,8 @@ def order_pup(restock_needed) :
     num = 2 
     if restock_needed == True :
         num += 1
-        dogs[f'Dog-{num}']
+        print(dogs[f'Dog-{num}'])
+        dogs['Dog-{num']
 
 def adopt_pup(restock_needed, available) :
     if restock_needed is True :
